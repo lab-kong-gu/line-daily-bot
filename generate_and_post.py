@@ -21,7 +21,7 @@ import urllib.error
 
 # --- Config -----------------------------------------------------------------
 
-GEMINI_MODEL = "gemini-2.0-flash"  # free tier; change if needed
+GEMINI_MODEL = "gemini-2.5-flash"  # free tier; change if needed
 
 # weekday(): Monday=0 ... Sunday=6
 THEMES = {
