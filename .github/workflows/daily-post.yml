@@ -3,10 +3,9 @@ name: Daily LINE AI Post
 on:
   schedule:
     # GitHub Actions cron runs in UTC.
-    # 12:00 UTC = 19:00 Asia/Bangkok (UTC+7)
-    - cron: "0 12 * * *"
+    # 11:50 UTC = 18:50 Asia/Bangkok (UTC+7)
+    - cron: "50 11 * * *"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
-
 jobs:
   post:
     runs-on: ubuntu-latest
