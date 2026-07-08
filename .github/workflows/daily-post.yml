@@ -3,8 +3,8 @@ name: Daily LINE AI Post
 on:
   schedule:
     # GitHub Actions cron runs in UTC.
-    # 11:50 UTC = 18:50 Asia/Bangkok (UTC+7)
-    - cron: "50 11 * * *"
+    # 10:20 UTC = 17:20 Asia/Bangkok (UTC+7); off-peak minute to reduce GitHub delay
+    - cron: "20 10 * * *"
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 jobs:
   post:
